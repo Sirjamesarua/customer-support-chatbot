@@ -12,7 +12,7 @@ from model import train_model_factory
 from serialization import save_object, save_model, save_vocab
 from datetime import datetime
 from util import embedding_size_from_name
-
+  
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Script for training seq2seq chatbot.')
